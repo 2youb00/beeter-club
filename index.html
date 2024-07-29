@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Titles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/imgs/UEFA-Champions-League-PNG-Pic.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <section class="main-cop">
+            <div class="club_pic1"><img src="" class="Club1Logo displaynone"><div class="pls1">+</div></div>
+            <div class="vs-cont"><p>vs</p></div>
+            <div class="club_pic2"><img src="" class="Club2Logo displaynone"><div class="pls2">+</div></div>
+        </section>
+        <section class="club_throf">
+            <div class="trophy-row UCL">
+                <div class="trophy UCL1">
+                    <img src="imgs/UEFA-Champions-League-PNG-Pic.png" alt="UCL Trophy"><p></p>
+                </div>
+                <p>UCL TITLES</p>
+                <div class="trophy UCL2">
+                    <p></p><img src="imgs/UEFA-Champions-League-PNG-Pic.png" alt="UCL Trophy">
+                </div>
+            </div>
+            <div class="trophy-row Europa">
+                <div class="trophy Europa1">
+                    <img src="imgs/cup/Europa League.png" style="width: 30px;" alt="UCL Trophy"><p></p>
+                </div>
+                <p>EUROPA LEAGUE</p>
+                <div class="trophy Europa2">
+                    <p></p><img src="imgs/cup/Europa League.png" style="width: 30px;" alt="UCL Trophy">
+                </div>
+            </div>
+            <div class="trophy-row la-liga">
+                <div class="trophy la-liga1">
+                    <img src="imgs/cup/La Liga.png" alt="La Liga Trophy"><p></p>
+                </div>
+                <p>DOMESTIT LEAGUES TITLES</p>
+                <div class="trophy la-liga2">
+                    <p></p><img src="imgs/cup/La Liga.png" alt="La Liga Trophy">
+                </div>
+            </div>
+            <div class="trophy-row super">
+                <div class="trophy super1">
+                    <img src="imgs/cup/spain super.png" alt="Supercopa Trophy"><p></p>
+                </div>
+                <p>SUPERCOPA</p>
+                <div class="trophy super2">
+                    <p></p><img src="imgs/cup/spain super.png" alt="Supercopa Trophy">
+                </div>
+            </div>
+            <div class="trophy-row domesticcup">
+                <div class="trophy domesticcup1">
+                    <img src="imgs/cup/Copa del Rey.png" alt="domesticcup Trophy"><p></p>
+                </div>
+                <p>DOMESTIC CUP</p>
+                <div class="trophy domesticcup2">
+                    <p></p><img src="imgs/cup/Copa del Rey.png" alt="domesticcup Trophy">
+                </div>
+            </div>
+            <div class="trophy-row">
+                <div class="trophy SCORE1">
+                    <p></p>
+                </div>
+                <p>SCORE</p>
+                <div class="trophy SCORE2">
+                    <p></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Search for a Club</h2>
+        <div class="clubs-sech-info"><hr>
+            <!-----                  la liga                   -->
+        <div class="contry-continer">
+        <div class="contry-continer-title">
+        <img src="imgs/club/la liga.png">
+        <h3 class="sitter-title" onclick="toggleClubs('La Liga')">La Liga</h3></div>
+        <div id="La Liga" class="clubs-sitter displaynone" >
+        <!-- La Liga Clubs -->
+        <div id="clubInfo" class="Real Madrid" onclick="choose('La Liga',0)">
+            <img id="clubImage" src="imgs/club/real madrid.png" alt="Club Image">
+            <p id="clubDisplayName">Real Madrid</p>
+            <p class="clubcontry">La Liga</p>
+        </div>
+        <div id="clubInfo" class="Barcelona" onclick="choose('La Liga',1)">
+            <img id="clubImage" src="imgs/club/barcelona.png" alt="Club Image">
+            <p id="clubDisplayName">Barcelona</p>
+            <p class="clubcontry">La Liga</p>
+        </div>
+        <div id="clubInfo" class="Atlético Madrid" onclick="choose('La Liga', 2)">
+            <img id="clubImage" src="imgs/club/atletico madrid.png" alt="Club Image">
+            <p id="clubDisplayName">Atlético Madrid</p>
+            <p class="clubcontry">La Liga</p>
+        </div>
+        <div id="clubInfo" class="Valencia" onclick="choose('La Liga', 3)">
+            <img id="clubImage" src="imgs/club/valencia.png" alt="Club Image">
+            <p id="clubDisplayName">Valencia</p>
+            <p class="clubcontry">La Liga</p>
+        </div>
+        <div id="clubInfo" class="Sevilla" onclick="choose('La Liga', 4)">
+            <img id="clubImage" src="imgs/club/sevilla.png" alt="Club Image">
+            <p id="clubDisplayName">Sevilla</p>
+            <p class="clubcontry">La Liga</p>
+        </div>
+        <div id="clubInfo" class="Real Sociedad" onclick="choose('La Liga', 5)">
+            <img id="clubImage" src="imgs/club/real sociedad.png" alt="Club Image">
+            <p id="clubDisplayName">Real Sociedad</p>
+            <p class="clubcontry">La Liga</p>
+        </div>
+        <div id="clubInfo" class="Real Betis" onclick="choose('La Liga', 6)">
+            <img id="clubImage" src="imgs/club/real betis.png" alt="Club Image">
+            <p id="clubDisplayName">Real Betis</p>
+            <p class="clubcontry">La Liga</p>
+        </div>
+        <div id="clubInfo" class="Villarreal" onclick="choose('La Liga', 7)">
+            <img id="clubImage" src="imgs/club/villarreal.png" alt="Club Image">
+            <p id="clubDisplayName">Villarreal</p>
+            <p class="clubcontry">La Liga</p>
+        </div>
+        <div id="clubInfo" class="Athletic Bilbao" onclick="choose('La Liga', 8)">
+            <img id="clubImage" src="imgs/club/athletic bilbao.png" alt="Club Image">
+            <p id="clubDisplayName">Athletic Bilbao</p>
+            <p class="clubcontry">La Liga</p>
+        </div>
+        <div id="clubInfo" class="Espanyol" onclick="choose('La Liga', 9)">
+            <img id="clubImage" src="imgs/club/espanyol.png" alt="Club Image">
+            <p id="clubDisplayName">Espanyol</p>
+            <p class="clubcontry">La Liga</p>
+        </div>
+        <div id="clubInfo" class="Celta Vigo" onclick="choose('La Liga', 10)">
+            <img id="clubImage" src="imgs/club/Celta Vigo2.png" alt="Club Image">
+            <p id="clubDisplayName">Celta Vigo</p>
+            <p class="clubcontry">La Liga</p>
+        </div>
+        <div id="clubInfo" class="Deportivo La Coruña" onclick="choose('La Liga', 11)">
+            <img id="clubImage" src="imgs/club/deportivo la coruña.png" alt="Club Image">
+            <p id="clubDisplayName">Deportivo La Coruña</p>
+            <p class="clubcontry">La Liga</p>
+        </div>        
+        </div></div>
+        <!--                               premair lge             -->
+
+        <div class="contry-continer">
+        <div class="contry-continer-title">
+        <img src="imgs/club/premier league.png">
+        <h3 class="sitter-title" onclick="toggleClubs('Premier League')">Premier League</h3></div>
+        <div id="Premier League" class="clubs-sitter displaynone">
+        <div id="clubInfo" class="Manchester United" onclick="choose('Premier League', 0)">
+            <img id="clubImage" src="imgs/club/manchester_united.png" alt="Club Image">
+            <p id="clubDisplayName">Manchester United</p>
+            <p class="clubcontry">Premier League</p>
+        </div>
+        <div id="clubInfo" class="Liverpool" onclick="choose('Premier League', 1)">
+            <img id="clubImage" src="imgs/club/liverpool.png" alt="Club Image">
+            <p id="clubDisplayName">Liverpool</p>
+            <p class="clubcontry">Premier League</p>
+        </div>
+        <div id="clubInfo" class="Chelsea" onclick="choose('Premier League', 2)">
+            <img id="clubImage" src="imgs/club/chelsea.png" alt="Club Image">
+            <p id="clubDisplayName">Chelsea</p>
+            <p class="clubcontry">Premier League</p>
+        </div>
+        <div id="clubInfo" class="Arsenal" onclick="choose('Premier League', 3)">
+            <img id="clubImage" src="imgs/club/arsenal.png" alt="Club Image">
+            <p id="clubDisplayName">Arsenal</p>
+            <p class="clubcontry">Premier League</p>
+        </div>
+        <div id="clubInfo" class="Manchester City" onclick="choose('Premier League', 4)">
+            <img id="clubImage" src="imgs/club/manchester city.png" alt="Club Image">
+            <p id="clubDisplayName">Manchester City</p>
+            <p class="clubcontry">Premier League</p>
+        </div>
+        <div id="clubInfo" class="Tottenham Hotspur"  onclick="choose('Premier League', 5)">
+            <img id="clubImage" src="imgs/club/tottenham hotspur.png" alt="Club Image" >
+            <p id="clubDisplayName">Tottenham Hotspur</p>
+            <p class="clubcontry">Premier League</p>
+        </div>
+        <div id="clubInfo" class="Leicester City" onclick="choose('Premier League', 6)">
+            <img id="clubImage" src="imgs/club/leicester city.png" alt="Club Image">
+            <p id="clubDisplayName">Leicester City</p>
+            <p class="clubcontry">Premier League</p>
+        </div>
+        <div id="clubInfo" class="Everton" onclick="choose('Premier League', 7)">
+            <img id="clubImage" src="imgs/club/everton.png" alt="Club Image">
+            <p id="clubDisplayName">Everton</p>
+            <p class="clubcontry">Premier League</p>
+        </div>
+        <div id="clubInfo" class="Newcastle United" onclick="choose('Premier League', 8)">
+            <img id="clubImage" src="imgs/club/newcastle united.png" alt="Club Image">
+            <p id="clubDisplayName">Newcastle United</p>
+            <p class="clubcontry">Premier League</p>
+        </div>
+        <div id="clubInfo" class="Aston Villa" onclick="choose('Premier League', 9)">
+            <img id="clubImage" src="imgs/club/aston villa.png" alt="Club Image">
+            <p id="clubDisplayName">Aston Villa</p>
+            <p class="clubcontry">Premier League</p>
+        </div>
+        <div id="clubInfo" class="West Ham United" onclick="choose('Premier League', 10)">
+            <img id="clubImage" src="imgs/club/west ham united.png" alt="Club Image">
+            <p id="clubDisplayName">West Ham United</p>
+            <p class="clubcontry">Premier League</p>
+        </div>
+        <div id="clubInfo" class="Leeds United" onclick="choose('Premier League', 11)">
+            <img id="clubImage" src="imgs/club/leeds united.png" alt="Club Image">
+            <p id="clubDisplayName">Leeds United</p>
+            <p class="clubcontry">Premier League</p>
+        </div>        
+        </div></div>
+        <!------------------germaiy                  --------->
+        <div class="contry-continer">
+            <div class="contry-continer-title">
+        <img src="imgs/club/Bundesliga.png">
+        <h3 class="sitter-title" onclick="toggleClubs('Bundesliga')">Bundesliga</h3></div>
+        <div id="Bundesliga" class="clubs-sitter displaynone">
+        <div id="clubInfo" class="Bayern Munich" onclick="choose('Bundesliga', 0)">
+            <img id="clubImage" src="imgs/club/bayern_munich.png" alt="Club Image">
+            <p id="clubDisplayName">Bayern Munich</p>
+            <p class="clubcontry">Bundesliga</p>
+        </div>
+        <div id="clubInfo" class="Borussia Dortmund" onclick="choose('Bundesliga', 1)">
+            <img id="clubImage" src="imgs/club/borussia_dortmund.png" alt="Club Image">
+            <p id="clubDisplayName">Borussia Dortmund</p>
+            <p class="clubcontry">Bundesliga</p>
+        </div>
+        <div id="clubInfo" class="Borussia Mönchengladbach" onclick="choose('Bundesliga', 2)">
+            <img id="clubImage" src="imgs/club/borussia_monchengladbach.png" alt="Club Image" style="width: 30px;">
+            <p id="clubDisplayName">Borussia Mönchengladbach</p>
+            <p class="clubcontry">Bundesliga</p>
+        </div>
+        <div id="clubInfo" class="Werder Bremen" onclick="choose('Bundesliga', 3)">
+            <img id="clubImage" src="imgs/club/werder_bremen.png" alt="Club Image">
+            <p id="clubDisplayName">Werder Bremen</p>
+            <p class="clubcontry">Bundesliga</p>
+        </div>
+        <div id="clubInfo" class="Hamburger SV" onclick="choose('Bundesliga', 4)">
+            <img id="clubImage" src="imgs/club/hamburger_sv.png" alt="Club Image">
+            <p id="clubDisplayName">Hamburger SV</p>
+            <p class="clubcontry">Bundesliga</p>
+        </div>
+        <div id="clubInfo" class="VfB Stuttgart" onclick="choose('Bundesliga', 5)">
+            <img id="clubImage" src="imgs/club/vfb_stuttgart.png" alt="Club Image">
+            <p id="clubDisplayName">VfB Stuttgart</p>
+            <p class="clubcontry">Bundesliga</p>
+        </div>
+        <div id="clubInfo" class="1. FC Köln" onclick="choose('Bundesliga', 6)">
+            <img id="clubImage" src="imgs/club/1 fc koln.png" alt="Club Image">
+            <p id="clubDisplayName">1. FC Köln</p>
+            <p class="clubcontry">Bundesliga</p>
+        </div>
+        <div id="clubInfo" class="RB Leipzig" onclick="choose('Bundesliga', 7)">
+            <img id="clubImage" src="imgs/club/rb leipzig.png" alt="Club Image">
+            <p id="clubDisplayName">RB Leipzig</p>
+            <p class="clubcontry">Bundesliga</p>
+        </div>
+        <div id="clubInfo" class="Bayer Leverkusen" onclick="choose('Bundesliga', 8)">
+            <img id="clubImage" src="imgs/club/bayer leverkusen.png" alt="Club Image">
+            <p id="clubDisplayName">Bayer Leverkusen</p>
+            <p class="clubcontry">Bundesliga</p>
+        </div>
+        <div id="clubInfo" class="Eintracht Frankfurt" onclick="choose('Bundesliga', 9)">
+            <img id="clubImage" src="imgs/club/eintracht frankfurt.png" alt="Club Image">
+            <p id="clubDisplayName">Eintracht Frankfurt</p>
+            <p class="clubcontry">Bundesliga</p>
+        </div>
+        <div id="clubInfo" class="Schalke 04" onclick="choose('Bundesliga', 10)">
+            <img id="clubImage" src="imgs/club/schalke 04.png" alt="Club Image">
+            <p id="clubDisplayName">Schalke 04</p>
+            <p class="clubcontry">Bundesliga</p>
+        </div>
+        <div id="clubInfo" class="Hertha BSC" onclick="choose('Bundesliga', 11)">
+            <img id="clubImage" src="imgs/club/hertha bsc.png" alt="Club Image">
+            <p id="clubDisplayName">Hertha BSC</p>
+            <p class="clubcontry">Bundesliga</p>
+        </div>        
+        </div></div>
+        <!--------------------------------------italy         -->
+        <div class="contry-continer">
+                    <div class="contry-continer-title">
+                    <img src="imgs/club/serie a.png">
+                <h3 class="sitter-title" onclick="toggleClubs('Serie A')">Serie A</h3></div>
+                <div id="Serie A" class="clubs-sitter displaynone">
+                
+                <div id="clubInfo" class="Juventus" onclick="choose('Serie A', 0)">
+                    <img id="clubImage" src="imgs/club/juventus.png" alt="Club Image">
+                    <p id="clubDisplayName">Juventus</p>
+                    <p class="clubcontry">Serie A</p>
+                </div>
+                <div id="clubInfo" class="AC Milan" onclick="choose('Serie A', 1)">
+                    <img id="clubImage" src="imgs/club/ac_milan.png" alt="Club Image" style="width: 30px;">
+                    <p id="clubDisplayName">AC Milan</p>
+                    <p class="clubcontry">Serie A</p>
+                </div>
+                <div id="clubInfo" class="Inter Milan" onclick="choose('Serie A', 2)">
+                    <img id="clubImage" src="imgs/club/inter_milan.png" alt="Club Image">
+                    <p id="clubDisplayName">Inter Milan</p>
+                    <p class="clubcontry">Serie A</p>
+                </div>
+                <div id="clubInfo" class="AS Roma" onclick="choose('Serie A', 3)">
+                    <img id="clubImage" src="imgs/club/as_roma.png" alt="Club Image">
+                    <p id="clubDisplayName">AS Roma</p>
+                    <p class="clubcontry">Serie A</p>
+                </div>
+                <div id="clubInfo" class="Lazio" onclick="choose('Serie A', 4)">
+                    <img id="clubImage" src="imgs/club/lazio.png" alt="Club Image">
+                    <p id="clubDisplayName">Lazio</p>
+                    <p class="clubcontry">Serie A</p>
+                </div>
+                <div id="clubInfo" class="Torino" onclick="choose('Serie A', 5)">
+                    <img id="clubImage" src="imgs/club/torino.png" alt="Club Image">
+                    <p id="clubDisplayName">Torino</p>
+                    <p class="clubcontry">Serie A</p>
+                </div>
+                <div id="clubInfo" class="Genoa" onclick="choose('Serie A', 6)">
+                    <img id="clubImage" src="imgs/club/genoa.png" alt="Club Image">
+                    <p id="clubDisplayName">Genoa</p>
+                    <p class="clubcontry">Serie A</p>
+                </div>
+                <div id="clubInfo" class="Bologna" onclick="choose('Serie A', 7)">
+                    <img id="clubImage" src="imgs/club/bologna.png" alt="Club Image">
+                    <p id="clubDisplayName">Bologna</p>
+                    <p class="clubcontry">Serie A</p>
+                </div>
+                <div id="clubInfo" class="Napoli" onclick="choose('Serie A', 8)">
+                    <img id="clubImage" src="imgs/club/napoli.png" alt="Club Image">
+                    <p id="clubDisplayName">Napoli</p>
+                    <p class="clubcontry">Serie A</p>
+                </div>
+                <div id="clubInfo" class="Fiorentina" onclick="choose('Serie A', 9)">
+                    <img id="clubImage" src="imgs/club/fiorentina.png" alt="Club Image">
+                    <p id="clubDisplayName">Fiorentina</p>
+                    <p class="clubcontry">Serie A</p>
+                </div>
+                <div id="clubInfo" class="Atalanta" onclick="choose('Serie A', 10)">
+                    <img id="clubImage" src="imgs/club/atalanta.png" alt="Club Image">
+                    <p id="clubDisplayName">Atalanta</p>
+                    <p class="clubcontry">Serie A</p>
+                </div>
+                <div id="clubInfo" class="Sampdoria" onclick="choose('Serie A', 11)">
+                    <img id="clubImage" src="imgs/club/sampdoria.png" alt="Club Image">
+                    <p id="clubDisplayName">Sampdoria</p>
+                    <p class="clubcontry">Serie A</p>
+                </div>
+                <div id="clubInfo" class="Parma" onclick="choose('Serie A', 12)">
+                    <img id="clubImage" src="imgs/club/parma.png" alt="Club Image">
+                    <p id="clubDisplayName">Parma</p>
+                    <p class="clubcontry">Serie A</p>
+                </div>                
+                </div>
+        </div>
+
+         <!-----------------------------france               -->
+        <div class="contry-continer">
+                    <div class="contry-continer-title">
+                    <img src="imgs/club/Ligue 1.png">
+                <h3 class="sitter-title" onclick="toggleClubs('Ligue 1')">Ligue 1</h3></div>
+                <div id="Ligue 1" class="clubs-sitter displaynone">
+                <div id="clubInfo" class="Paris Saint-Germain" onclick="choose('Ligue 1', 0)">
+                    <img id="clubImage" src="imgs/club/paris_saint_germain.png" alt="Club Image">
+                    <p id="clubDisplayName">Paris Saint-Germain</p>
+                    <p class="clubcontry">Ligue 1</p>
+                </div>
+                <div id="clubInfo" class="Marseille" onclick="choose('Ligue 1', 1)">
+                    <img id="clubImage" src="imgs/club/marseille.png" alt="Club Image">
+                    <p id="clubDisplayName">Marseille</p>
+                    <p class="clubcontry">Ligue 1</p>
+                </div>
+                <div id="clubInfo" class="AS Monaco" onclick="choose('Ligue 1', 2)">
+                    <img id="clubImage" src="imgs/club/as_monaco.png" alt="Club Image">
+                    <p id="clubDisplayName">AS Monaco</p>
+                    <p class="clubcontry">Ligue 1</p>
+                </div>
+                <div id="clubInfo" class="Lyon" onclick="choose('Ligue 1', 3)">
+                    <img id="clubImage" src="imgs/club/lyon.png" alt="Club Image">
+                    <p id="clubDisplayName">Lyon</p>
+                    <p class="clubcontry">Ligue 1</p>
+                </div>
+                <div id="clubInfo" class="Saint-Étienne" onclick="choose('Ligue 1', 4)">
+                    <img id="clubImage" src="imgs/club/saint_etienne.png" alt="Club Image">
+                    <p id="clubDisplayName">Saint-Étienne</p>
+                    <p class="clubcontry">Ligue 1</p>
+                </div>
+                <div id="clubInfo" class="Nantes" onclick="choose('Ligue 1', 5)">
+                    <img id="clubImage" src="imgs/club/nantes.png" alt="Club Image">
+                    <p id="clubDisplayName">Nantes</p>
+                    <p class="clubcontry">Ligue 1</p>
+                </div>
+                <div id="clubInfo" class="Bordeaux" onclick="choose('Ligue 1', 6)">
+                    <img id="clubImage" src="imgs/club/bordeaux.png" alt="Club Image">
+                    <p id="clubDisplayName">Bordeaux</p>
+                    <p class="clubcontry">Ligue 1</p>
+                </div>
+                <div id="clubInfo" class="Nice" onclick="choose('Ligue 1', 7)">
+                    <img id="clubImage" src="imgs/club/nice.png" alt="Club Image">
+                    <p id="clubDisplayName">Nice</p>
+                    <p class="clubcontry">Ligue 1</p>
+                </div>
+                <div id="clubInfo" class="Lens" onclick="choose('Ligue 1', 8)">
+                    <img id="clubImage" src="imgs/club/lens.png" alt="Club Image">
+                    <p id="clubDisplayName">Lens</p>
+                    <p class="clubcontry">Ligue 1</p>
+                </div>
+                <div id="clubInfo" class="Rennes" onclick="choose('Ligue 1', 9)">
+                    <img id="clubImage" src="imgs/club/rennes.png" alt="Club Image">
+                    <p id="clubDisplayName">Rennes</p>
+                    <p class="clubcontry">Ligue 1</p>
+                </div>
+                <div id="clubInfo" class="Reims" onclick="choose('Ligue 1', 10)">
+                    <img id="clubImage" src="imgs/club/reims.png" alt="Club Image">
+                    <p id="clubDisplayName">Reims</p>
+                    <p class="clubcontry">Ligue 1</p>
+                </div>
+                <div id="clubInfo" class="Lille" onclick="choose('Ligue 1', 11)">
+                    <img id="clubImage" src="imgs/club/lille.png" alt="Club Image">
+                    <p id="clubDisplayName">Lille</p>
+                    <p class="clubcontry">Ligue 1</p>
+                </div>
+        </div></div>
+    </div>
+</div></div>
+<footer>
+    <div class="footer-content">
+        <h3>تابعني</h3>
+        <p>رونالدو عمك</p>
+        <ul class="socials">
+            <li><a href="https://www.instagram.com/2youb00/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.tiktok.com/@xovzd"><i class="fa-brands fa-tiktok"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

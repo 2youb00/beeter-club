@@ -1,0 +1,440 @@
+{
+    "Premier League":[
+        {
+            "club": "Manchester United",
+            "trophies": [
+                "Premier League: 20",
+                "FA Cup: 12",
+                "EFL Cup: 5",
+                "UEFA Champions League: 3",
+                "UEFA Europa League: 1"
+            ]
+        },
+        {
+            "club": "Liverpool",
+            "trophies": [
+                "Premier League: 19",
+                "FA Cup: 8",
+                "EFL Cup: 9",
+                "UEFA Champions League: 6",
+                "UEFA Europa League: 3"
+            ]
+        },
+        {
+            "club": "Chelsea",
+            "trophies": [
+                "Premier League: 6",
+                "FA Cup: 8",
+                "EFL Cup: 5",
+                "UEFA Champions League: 2",
+                "UEFA Europa League: 2"
+            ]
+        },
+        {
+            "club": "Arsenal",
+            "trophies": [
+                "Premier League: 13",
+                "FA Cup: 14",
+                "EFL Cup: 2",
+                "UEFA Champions League: 0",
+                "UEFA Europa League: 0"
+            ]
+        },
+        {
+            "club": "Manchester City",
+            "trophies": [
+                "Premier League: 7",
+                "FA Cup: 6",
+                "EFL Cup: 8",
+                "UEFA Champions League: 1",
+                "UEFA Europa League: 0"
+            ]
+        },
+        {
+            "club": "Tottenham Hotspur",
+            "trophies": [
+                "Premier League: 2",
+                "FA Cup: 8",
+                "EFL Cup: 4",
+                "UEFA Champions League: 0",
+                "UEFA Europa League: 2"
+            ]
+        },
+        {
+            "club": "Leicester City",
+            "trophies": [
+                "Premier League: 1",
+                "FA Cup: 1",
+                "EFL Cup: 3",
+                "UEFA Champions League: 0",
+                "UEFA Europa League: 0"
+            ]
+        }
+    ],
+    "La Liga": [
+            {
+                "club": "Real Madrid",
+                "trophies": [
+                    "La Liga: 35",
+                    "Copa del Rey: 19",
+                    "Supercopa de España: 12",
+                    "UEFA Champions League: 14",
+                    "UEFA Europa League: 2",
+                    "UEFA Super Cup: 4",
+                    "FIFA Club World Cup: 4"
+                ]
+            },
+            {
+                "club": "Barcelona",
+                "trophies": [
+                    "La Liga: 26",
+                    "Copa del Rey: 31",
+                    "Supercopa de España: 13",
+                    "UEFA Champions League: 5",
+                    "UEFA Europa League: 0",
+                    "UEFA Super Cup: 5",
+                    "FIFA Club World Cup: 3"
+                ]
+            },
+            {
+                "club": "Atlético Madrid",
+                "trophies": [
+                    "La Liga: 11",
+                    "Copa del Rey: 10",
+                    "Supercopa de España: 2",
+                    "UEFA Champions League: 0",
+                    "UEFA Europa League: 3",
+                    "UEFA Super Cup: 3",
+                    "FIFA Club World Cup: 0"
+                ]
+            },
+            {
+                "club": "Valencia",
+                "trophies": [
+                    "La Liga: 6",
+                    "Copa del Rey: 8",
+                    "Supercopa de España: 1",
+                    "UEFA Champions League: 0",
+                    "UEFA Europa League: 1",
+                    "UEFA Super Cup: 2",
+                    "FIFA Club World Cup: 0"
+                ]
+            },
+            {
+                "club": "Sevilla",
+                "trophies": [
+                    "La Liga: 1",
+                    "Copa del Rey: 5",
+                    "Supercopa de España: 1",
+                    "UEFA Champions League: 0",
+                    "UEFA Europa League: 6",
+                    "UEFA Super Cup: 1",
+                    "FIFA Club World Cup: 0"
+                ]
+            },
+            {
+                "club": "Real Sociedad",
+                "trophies": [
+                    "La Liga: 2",
+                    "Copa del Rey: 3",
+                    "Supercopa de España: 1",
+                    "UEFA Champions League: 0",
+                    "UEFA Europa League: 0",
+                    "UEFA Super Cup: 0",
+                    "FIFA Club World Cup: 0"
+                ]
+            },
+            {
+                "club": "Real Betis",
+                "trophies": [
+                    "La Liga: 1",
+                    "Copa del Rey: 3",
+                    "Supercopa de España: 0",
+                    "UEFA Champions League: 0",
+                    "UEFA Europa League: 0",
+                    "UEFA Super Cup: 0",
+                    "FIFA Club World Cup: 0"
+                ]
+            }
+    ],
+    "Bundesliga": [
+          {
+            "club": "Bayern Munich",
+            "trophies": [
+              "Bundesliga: 33",
+              "DFB-Pokal: 20",
+              "DFL-Supercup: 10",
+              "UEFA Champions League: 6",
+              "UEFA Europa League: 1",
+              "UEFA Super Cup: 2",
+              "FIFA Club World Cup: 4"
+            ]
+          },
+          {
+            "club": "Borussia Dortmund",
+            "trophies": [
+              "Bundesliga: 8",
+              "DFB-Pokal: 5",
+              "DFL-Supercup: 7",
+              "UEFA Champions League: 1",
+              "UEFA Europa League: 0",
+              "UEFA Super Cup: 0",
+              "FIFA Club World Cup: 0"
+            ]
+          },
+          {
+            "club": "Borussia Mönchengladbach",
+            "trophies": [
+              "Bundesliga: 5",
+              "DFB-Pokal: 3",
+              "DFL-Supercup: 0",
+              "UEFA Champions League: 0",
+              "UEFA Europa League: 2",
+              "UEFA Super Cup: 0",
+              "FIFA Club World Cup: 0"
+            ]
+          },
+          {
+            "club": "Werder Bremen",
+            "trophies": [
+              "Bundesliga: 4",
+              "DFB-Pokal: 6",
+              "DFL-Supercup: 4",
+              "UEFA Champions League: 0",
+              "UEFA Europa League: 0",
+              "UEFA Super Cup: 0",
+              "FIFA Club World Cup: 0"
+            ]
+          },
+          {
+            "club": "Hamburger SV",
+            "trophies": [
+              "Bundesliga: 3",
+              "DFB-Pokal: 3",
+              "DFL-Supercup: 2",
+              "UEFA Champions League: 1",
+              "UEFA Europa League: 0",
+              "UEFA Super Cup: 1",
+              "FIFA Club World Cup: 0"
+            ]
+          },
+          {
+            "club": "VfB Stuttgart",
+            "trophies": [
+              "Bundesliga: 3",
+              "DFB-Pokal: 3",
+              "DFL-Supercup: 1",
+              "UEFA Champions League: 0",
+              "UEFA Europa League: 0",
+              "UEFA Super Cup: 0",
+              "FIFA Club World Cup: 0"
+            ]
+          },
+          {
+            "club": "1. FC Köln",
+            "trophies": [
+              "Bundesliga: 2",
+              "DFB-Pokal: 4",
+              "DFL-Supercup: 0",
+              "UEFA Champions League: 0",
+              "UEFA Europa League: 0",
+              "UEFA Super Cup: 0",
+              "FIFA Club World Cup: 0"
+            ]
+          }
+    ],
+    "Serie A": [
+                {
+                    "club": "Juventus",
+                    "trophies": [
+                        "Serie A: 36",
+                        "Coppa Italia: 14",
+                        "Supercoppa Italiana: 9",
+                        "UEFA Champions League: 2",
+                        "UEFA Europa League: 3",
+                        "UEFA Super Cup: 2",
+                        "FIFA Club World Cup: 0"
+                    ]
+                },
+                {
+                    "club": "AC Milan",
+                    "trophies": [
+                        "Serie A: 19",
+                        "Coppa Italia: 5",
+                        "Supercoppa Italiana: 7",
+                        "UEFA Champions League: 7",
+                        "UEFA Europa League: 0",
+                        "UEFA Super Cup: 5",
+                        "FIFA Club World Cup: 1"
+                    ]
+                },
+                {
+                    "club": "Inter Milan",
+                    "trophies": [
+                        "Serie A: 19",
+                        "Coppa Italia: 8",
+                        "Supercoppa Italiana: 7",
+                        "UEFA Champions League: 3",
+                        "UEFA Europa League: 3",
+                        "UEFA Super Cup: 1",
+                        "FIFA Club World Cup: 3"
+                    ]
+                },
+                {
+                    "club": "AS Roma",
+                    "trophies": [
+                        "Serie A: 3",
+                        "Coppa Italia: 9",
+                        "Supercoppa Italiana: 2",
+                        "UEFA Champions League: 0",
+                        "UEFA Europa League: 1",
+                        "UEFA Super Cup: 0",
+                        "FIFA Club World Cup: 0"
+                    ]
+                },
+                {
+                    "club": "Lazio",
+                    "trophies": [
+                        "Serie A: 2",
+                        "Coppa Italia: 7",
+                        "Supercoppa Italiana: 5",
+                        "UEFA Champions League: 0",
+                        "UEFA Europa League: 0",
+                        "UEFA Super Cup: 1",
+                        "FIFA Club World Cup: 0"
+                    ]
+                },
+                {
+                    "club": "Torino",
+                    "trophies": [
+                        "Serie A: 7",
+                        "Coppa Italia: 5",
+                        "Supercoppa Italiana: 0",
+                        "UEFA Champions League: 0",
+                        "UEFA Europa League: 0",
+                        "UEFA Super Cup: 0",
+                        "FIFA Club World Cup: 0"
+                    ]
+                },
+                {
+                    "club": "Genoa",
+                    "trophies": [
+                        "Serie A: 9",
+                        "Coppa Italia: 1",
+                        "Supercoppa Italiana: 0",
+                        "UEFA Champions League: 0",
+                        "UEFA Europa League: 0",
+                        "UEFA Super Cup: 0",
+                        "FIFA Club World Cup: 0"
+                    ]
+                },
+                {
+                    "club": "Bologna",
+                    "trophies": [
+                        "Serie A: 7",
+                        "Coppa Italia: 2",
+                        "Supercoppa Italiana: 0",
+                        "UEFA Champions League: 0",
+                        "UEFA Europa League: 0",
+                        "UEFA Super Cup: 0",
+                        "FIFA Club World Cup: 0"
+                    ]
+                }
+     ],
+    "Ligue 1": [
+                    {
+                        "club": "Paris Saint-Germain",
+                        "trophies": [
+                            "Ligue 1: 11",
+                            "Coupe de France: 14",
+                            "Coupe de la Ligue: 9",
+                            "Trophée des Champions: 11",
+                            "UEFA Champions League: 0",
+                            "UEFA Europa League: 0",
+                            "UEFA Super Cup: 0",
+                            "FIFA Club World Cup: 0"
+                        ]
+                    },
+                    {
+                        "club": "Marseille",
+                        "trophies": [
+                            "Ligue 1: 9",
+                            "Coupe de France: 10",
+                            "Coupe de la Ligue: 3",
+                            "Trophée des Champions: 3",
+                            "UEFA Champions League: 1",
+                            "UEFA Europa League: 0",
+                            "UEFA Super Cup: 0",
+                            "FIFA Club World Cup: 0"
+                        ]
+                    },
+                    {
+                        "club": "AS Monaco",
+                        "trophies": [
+                            "Ligue 1: 8",
+                            "Coupe de France: 5",
+                            "Coupe de la Ligue: 1",
+                            "Trophée des Champions: 4",
+                            "UEFA Champions League: 0",
+                            "UEFA Europa League: 0",
+                            "UEFA Super Cup: 0",
+                            "FIFA Club World Cup: 0"
+                        ]
+                    },
+                    {
+                        "club": "Lyon",
+                        "trophies": [
+                            "Ligue 1: 7",
+                            "Coupe de France: 5",
+                            "Coupe de la Ligue: 1",
+                            "Trophée des Champions: 8",
+                            "UEFA Champions League: 0",
+                            "UEFA Europa League: 0",
+                            "UEFA Super Cup: 0",
+                            "FIFA Club World Cup: 0"
+                        ]
+                    },
+                    {
+                        "club": "Saint-Étienne",
+                        "trophies": [
+                            "Ligue 1: 10",
+                            "Coupe de France: 6",
+                            "Coupe de la Ligue: 1",
+                            "Trophée des Champions: 5",
+                            "UEFA Champions League: 0",
+                            "UEFA Europa League: 0",
+                            "UEFA Super Cup: 0",
+                            "FIFA Club World Cup: 0"
+                        ]
+                    },
+                    {
+                        "club": "Nantes",
+                        "trophies": [
+                            "Ligue 1: 8",
+                            "Coupe de France: 4",
+                            "Coupe de la Ligue: 1",
+                            "Trophée des Champions: 3",
+                            "UEFA Champions League: 0",
+                            "UEFA Europa League: 0",
+                            "UEFA Super Cup: 0",
+                            "FIFA Club World Cup: 0"
+                        ]
+                    },
+                    {
+                        "club": "Bordeaux",
+                        "trophies": [
+                            "Ligue 1: 6",
+                            "Coupe de France: 4",
+                            "Coupe de la Ligue: 3",
+                            "Trophée des Champions: 3",
+                            "UEFA Champions League: 0",
+                            "UEFA Europa League: 0",
+                            "UEFA Super Cup: 0",
+                            "FIFA Club World Cup: 0"
+                        ]
+                    }
+    ]
+}
+            
+        
+      
