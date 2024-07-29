@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e3f2fd;
-    height: 140vh;
+    
 }
 
 .main-cop {
@@ -321,9 +321,12 @@ footer {
     margin: 0;
 }
 @media (max-width:430px) {
+    body{
+        height: 110vh;
+    }
     footer{
     position: fixed;
-        bottom: 0;
+    bottom: 0;
     }
     .main-cop{
         margin-left: 6px;
