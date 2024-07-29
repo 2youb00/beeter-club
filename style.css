@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e3f2fd;
+    height: 100vh;
 }
 
 .main-cop {
