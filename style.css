@@ -321,7 +321,7 @@ footer {
 }
 @media (max-width:430px) {
     footer{
-    position: fixed;
+    position: relative;
     }
     .main-cop{
         margin-left: 6px;
